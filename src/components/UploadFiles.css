@@ -1,0 +1,35 @@
+input[type="file"] {
+    font-size: 0.7vw;
+    border: 1px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    width:24vw
+}
+::-webkit-file-upload-button {
+    color: rgb(245, 245, 245);
+    background:  rgb(10, 11, 59);
+    outline: none;
+    border: none;
+    height:1.4vw;
+    width:5.4vw;
+    margin-right: 0.5vw;
+}
+::-webkit-file-upload-button:hover {
+    cursor: pointer;
+    background: rgb(16, 18, 88);
+}
+.uploadDiv{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    border:1px solid rgb(173, 173, 173);
+    padding: 20px 20px 20px 20px;
+    box-shadow: -3px 3px 4px rgb(129, 129, 129);
+    
+}
+
+.upFile{
+    font-size: 30px;
+    margin-bottom: 18px;
+
+}

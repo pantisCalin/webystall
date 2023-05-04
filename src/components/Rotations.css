@@ -1,0 +1,44 @@
+.rotations{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+ 
+}
+.rotOth{
+    border:1px solid rgb(173, 173, 173);
+    padding: 10px 20px 10px 20px;
+    box-shadow: -3px 3px 4px rgb(129, 129, 129);
+    margin-bottom: 8px;
+}
+.rotLab{
+    font-size: 30px;
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.oneInput{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+}
+input[type='number']{
+    width:55px
+}
+.DFR{
+    display: flex;
+}
+.noMarginTop{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.butandangle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

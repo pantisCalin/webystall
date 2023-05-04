@@ -1,0 +1,74 @@
+.tableDiv{
+    padding: 10px 20px 10px 20px;
+    border:1px solid rgb(173, 173, 173);
+    box-shadow: -3px 3px 4px rgb(129, 129, 129);
+    box-sizing: border-box;
+}
+.aboveTable{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sort{
+    font-size: 18px;
+    margin-right: 5px;
+}
+.sortInput{
+    
+    font-size:14px;
+    width:60px;
+    border-radius: 0;
+    padding: 4px 6px 4px 6px;
+    border:1px solid rgb(173, 173, 173);
+    box-sizing: border-box;
+
+}
+.tableTitle{
+    font-size: 30px;
+ 
+}
+table, th, td {
+    border: 1px solid gray;
+    text-align: center;
+    cursor: pointer;
+  }
+table {
+    border-collapse: collapse;
+    width:100%
+}
+th {
+    font-size: 14px;
+    padding: 8px 5px 8px 5px;
+    color:rgb(10, 11, 59)
+}
+td {
+    font-size: 12px;
+    padding: 8px 5px 8px 5px;
+}
+.remove{
+    border: none;
+    color: rgb(209, 0, 0);
+    background-color:rgba(255, 255, 255, 0);
+}
+.add {
+    border: none;
+    color: rgb(0, 165, 8);
+    background-color:rgba(255, 255, 255, 0);
+}
+.replace{
+    border: none;
+    color: rgb(0, 60, 128);
+    background-color:rgba(255, 255, 255, 0);
+}
+.remove:hover, .replace:hover, .add:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.redSelected{
+    background-color: rgb(255, 196, 196);
+}
+.focusedData{
+    background-color: rgb(191, 207, 255);
+}

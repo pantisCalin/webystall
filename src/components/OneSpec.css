@@ -1,0 +1,68 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+.oneSpec {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px 10px 20px;
+    border:1px solid rgb(173, 173, 173);
+    box-shadow: -3px 3px 4px rgb(129, 129, 129);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.specName{
+    font-size: 25px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    color:rgb(10, 11, 59);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.property {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.subProperty{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(58, 58, 58);
+    font-size: 16px;
+    margin-top: 10px;
+}
+.superCellData{
+    display: flex;
+   justify-content: space-between;
+   width:400px
+}
+.propName{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+input[type='color']{
+    border:none;
+    outline: none;
+    height:21px;
+    width:24px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 0;
+}
+input[type="color"]::-webkit-color-swatch-wrapper {
+    border-radius: 50%;
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+    border-radius: 50%;
+
+}
