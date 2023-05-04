@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/webystall/static/css/main.c4a2f1cf.css",
+    "main.js": "/webystall/static/js/main.c0eaa71e.js",
+    "static/js/787.2dffd54a.chunk.js": "/webystall/static/js/787.2dffd54a.chunk.js",
+    "index.html": "/webystall/index.html",
+    "main.c4a2f1cf.css.map": "/webystall/static/css/main.c4a2f1cf.css.map",
+    "main.c0eaa71e.js.map": "/webystall/static/js/main.c0eaa71e.js.map",
+    "787.2dffd54a.chunk.js.map": "/webystall/static/js/787.2dffd54a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c4a2f1cf.css",
+    "static/js/main.c0eaa71e.js"
+  ]
+}
